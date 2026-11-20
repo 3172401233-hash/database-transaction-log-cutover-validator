@@ -1,0 +1,12 @@
+{
+  "name": "database-transaction-log-cutover-validator",
+  "version": "1.0.0",
+  "description": "验证事务日志切换后恢复链连续性（时间线 / WAL 段 / 检查点 / 归档 / 副本）",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
